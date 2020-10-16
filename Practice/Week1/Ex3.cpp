@@ -1,12 +1,10 @@
 #include <iostream>
-//using namespace std;
 
 int main() {
     int n, m;
     char output;
     std::cout << "Enter a num between 1 and 26 and a random whole number:\n";
-    std::cin >> n ;
-    std::cin >> m;
+    std::cin >> n >> m;
     if (n>=1 && n<=26 && m%2==0) 
     {
         output = int('a') + (n-1);
