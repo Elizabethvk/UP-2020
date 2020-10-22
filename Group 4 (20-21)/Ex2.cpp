@@ -18,3 +18,24 @@ int main(){
     std::cout<<h;
     return 0;
 }
+
+/*
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int N,o,h;
+    do
+    {
+        cout<<"N(0..10000)=";cin>>N;
+    }
+    while(N<0||N>10000);
+    o=N/12;
+    h=N%12;
+    if(h==0) h=12;
+    cout<<o<<" "<<h<<endl;
+    return 0;
+}
+*/
