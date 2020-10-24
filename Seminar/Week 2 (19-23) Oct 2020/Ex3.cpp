@@ -9,9 +9,10 @@ int main(){
     int m, tmp;
 
     std::cin>> m;
-    std::cin >> tmp;
-    maxNum = tmp;
-
+    //std::cin >> tmp;
+    //maxNum = tmp;
+    std::cin >> maxNum;
+    
     for (int i=0; i<m; ++i) {
 
         std::cin>> tmp;
