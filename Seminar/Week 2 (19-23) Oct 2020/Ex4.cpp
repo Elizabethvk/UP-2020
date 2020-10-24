@@ -13,7 +13,7 @@ int main(){
     maxNum = product = sum = tmp;
 
     for (int i=0; i<(m-1); ++i) {
-         std::cin>> tmp;
+        std::cin>> tmp;
         product = product * tmp;
         sum = sum + tmp;
        
